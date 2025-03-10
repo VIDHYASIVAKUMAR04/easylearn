@@ -25,14 +25,14 @@ import coursesData from "../reuse/json/detail.json";
 
 const CoursueDashboard = () => {
   const [sidebarOpen, setSidebarOpen] = useState(false);
-  const [rightSidebarOpen, setRightSidebarOpen] = useState(false);
+  const [leftSidebarOpen, setLeftSidebarOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
   const [filteredCourses, setFilteredCourses] = useState([]);
   const [allCourses, setAllCourses] = useState([]);
   const [visibleCourses, setVisibleCourses] = useState(4);
 
   const toggleSidebar = () => setSidebarOpen(!sidebarOpen);
-  const toggleRightSidebar = () => setRightSidebarOpen(!rightSidebarOpen);
+  const toggleLeftSidebar = () => setLeftSidebarOpen(!leftSidebarOpen);
 
   const navigate = useNavigate();
   const data = localStorage.getItem("userCredentials");
@@ -52,7 +52,7 @@ const CoursueDashboard = () => {
       course.title.toLowerCase().includes(searchQuery.toLowerCase())
     );
     setFilteredCourses(filtered);
-    setVisibleCourses(4); // Reset visible count on search
+    setVisibleCourses(4);
   }, [searchQuery, allCourses]);
 
   const handleLogout = () => {
@@ -76,11 +76,9 @@ const CoursueDashboard = () => {
 
   return (
     <div className="bg-gray-100 min-h-screen">
-      {/* Unified Navbar that works for both mobile and desktop */}
       <header className="bg-white shadow-sm">
         <div className="container mx-auto px-4 py-3">
           <div className="flex items-center justify-between">
-            {/* Left section: Logo and menu button */}
             <div className="flex items-center">
               <button 
                 onClick={toggleSidebar} 
@@ -96,7 +94,6 @@ const CoursueDashboard = () => {
               </div>
             </div>
 
-            {/* Center section: Search (hidden on smallest screens, visible on sm and up) */}
             <div className="hidden sm:block flex-grow max-w-lg mx-4">
               <div className="relative w-full">
                 <Search
@@ -113,12 +110,10 @@ const CoursueDashboard = () => {
               </div>
             </div>
 
-            {/* Right section: My Learnings button and Cart */}
             <div className="flex items-center gap-2">
               <Link
                 to="/app/mylearnings"
-                className="group relative inline-flex items-center gap-1 px-3 md:px-6 py-2 md:py-3 overflow-hidden rounded-lg bg-gradient-to-r from-blue-600 to-blue-700 text-white font-medium shadow-md hover:from-blue-700 hover:to-blue-800 transition-all duration-300"
-              >
+                className="group relative inline-flex items-center gap-1 px-3 md:px-6 py-2 md:py-3 overflow-hidden rounded-lg bg-gradient-to-r from-blue-600 to-blue-700 text-white font-medium shadow-md hover:from-blue-700 hover:to-blue-800 transition-all duration-300">
                 <span className="flex items-center">
                   <BookOpen className="h-4 w-4 md:h-5 md:w-5 mr-1 md:mr-2" />
                   <span className="text-sm md:text-base">My Learnings</span>
@@ -130,7 +125,6 @@ const CoursueDashboard = () => {
             </div>
           </div>
 
-          {/* Search bar for mobile (sm:hidden) */}
           <div className="mt-3 sm:hidden">
             <div className="relative w-full">
               <Search
@@ -157,14 +151,13 @@ const CoursueDashboard = () => {
           } md:translate-x-0 transition-transform duration-300 fixed md:static top-0 left-0 z-40 h-screen bg-white w-62 border-r border-gray-100 p-4 md:block`}
         >
           <div className="flex justify-between items-center mb-6">
+           <button className="md:hidden" onClick={toggleSidebar}>
             <div className="flex items-center gap-2">
               <Award size={30} />
               <span className="text-2xl font-bold text-blue-600 hover:text-blue-800 transition-colors duration-300">
                 EASYLEARN
               </span>
             </div>
-            <button className="md:hidden" onClick={toggleSidebar}>
-              <X size={24} />
             </button>
           </div>
 
@@ -241,18 +234,16 @@ const CoursueDashboard = () => {
           </div>
         </div>
 
-        {/* Overlay for when sidebar is open on mobile */}
-        {(sidebarOpen || rightSidebarOpen) && (
+        {(sidebarOpen || leftSidebarOpen) && (
           <div
             className="fixed inset-0 bg-black bg-opacity-50 z-30 md:hidden"
             onClick={() => {
               setSidebarOpen(false);
-              setRightSidebarOpen(false);
+              setLeftSidebarOpen(false);
             }}
           />
         )}
 
-        {/* Main content */}
         <div className="flex-1 p-4 md:p-6 w-full">
           <div className="bg-blue-500 rounded-xl p-4 md:p-6 mb-6 relative overflow-hidden">
             <div className="absolute right-0 bottom-0 w-48 h-48 rounded-full bg-blue-400 opacity-60 -mr-10 -mb-10" />
@@ -266,6 +257,7 @@ const CoursueDashboard = () => {
                 EasyLearn Online Courses
               </h2>
               <button className="bg-black text-white px-4 py-2 rounded-lg text-sm font-medium flex items-center gap-2">
+                
                 Join Now
                 <ChevronRight size={16} />
               </button>
@@ -294,7 +286,7 @@ const CoursueDashboard = () => {
               </div>
             </div>
             <button
-              onClick={toggleRightSidebar}
+              onClick={toggleLeftSidebar}
               className="bg-blue-600 text-white px-3 py-1 rounded-full text-xs"
             >
               View Profile

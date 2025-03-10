@@ -127,7 +127,7 @@ const EasyLearnDashboard = () => {
           {/* Left Sidebar */}
           <div className="w-full md:w-2/5 p-2 py-6 bg-blue-100 flex flex-col justify-between rounded-2xl">
               <div>
-              <Link to="/app/dashboard" className="relative  -top-4 text-md flex items-center bg-slate-100 p-2 rounded-md font-bold text-blue-600 hover:text-blue-800 transition-colors duration-300"><ChevronLeft size={20}/> <div>Back</div></Link>                
+              <Link to="/app/dashboard" className="relative  -top-4 text-md flex items-center bg-slate-100 p-2 rounded-md font-bold text-black hover:text-blue-800 transition-colors duration-300"><ChevronLeft size={25}/> <div>Back</div></Link>                
                  <div className="flex items-center gap-2 pl-5">
               <div className="bg-slate-100 text-white p-1 rounded-md">
                 <Award size={30} className='text-black' />
@@ -138,7 +138,7 @@ const EasyLearnDashboard = () => {
                     <div className='relative'>
 
                     <div className="w-15 h-15 bg-blue-500 rounded-full flex items-center justify-center text-white text-2xl font-bold">
-                      WM
+                      VA
                     </div>
                     <div className="absolute -bottom-2 left-2 bg-green-500 rounded-full w-6 h-6 border-2 border-white flex items-center justify-center">
                       <svg xmlns="http://www.w3.org/2000/svg" className="h-3 w-3 text-white" viewBox="0 0 20 20" fill="currentColor">
@@ -221,7 +221,7 @@ const EasyLearnDashboard = () => {
               <div className="flex justify-between items-center mb-6">
                   <div className="flex flex-col items-center justify-center"> {/* Only horizontal centering */}
                     <h1 className="text-2xl font-bold ">Course Activity</h1>
-                    <p className="text-blue-500">March 8th, 2025</p>
+                    <p className="text-blue-600">March 10th, 2025</p>
                   </div>
               </div>
            </div>
@@ -230,7 +230,7 @@ const EasyLearnDashboard = () => {
             {/* Course Section */}
             <div className="mb-8">
               <div className="flex justify-between items-center mb-4">
-                <h2 className="text-xl text-gray-400">Courses</h2>
+                <h2 className="text-xl text-gray-500">Courses</h2>
                 <div className="flex gap-2">
                   <button className="p-1 rounded hover:bg-gray-100">
                     <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -290,7 +290,7 @@ const EasyLearnDashboard = () => {
 
             {/* My Learning Section */}
             <div className="mb-8">
-              <h2 className="text-xl text-gray-400 mb-4">My learning</h2>
+              <h2 className="text-xl text-gray-500 mb-4">My learnings</h2>
 
               <div className="space-y-4">
                 {myLearning.map((item) => (

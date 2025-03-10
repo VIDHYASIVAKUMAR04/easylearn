@@ -1,10 +1,10 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import Footer from "../resource/Footer";
-import CoursueDashboard from "./courceDasboard";
-import CourseHome from "../reuse/project/CourseHome";
-import UserProfile from "../reuse/project/MyLearnings";
-import Cart from "../reuse/project/Cart";
+import Footer from "./Components/resource/Footer";
+import CoursueDashboard from "./Components/main/CourceDasboard";
+import CourseHome from "./Components/reuse/project/CourseHome";
+import UserProfile from "./Components/reuse/project/MyLearnings";
+import Cart from "./Components/reuse/project/Cart";
 
 
 const Home = () => {

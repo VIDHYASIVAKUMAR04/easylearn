@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import coursesData from "../json/detail.json";
 import CartIcon from "./CartIcon";
+import { Award } from "lucide-react";
 
 const CourseHome = () => {
   const navigate = useNavigate();
@@ -40,28 +41,14 @@ const CourseHome = () => {
         {/* Header/Navigation */}
         <div className="border-b border-gray-200 bg-white p-4 flex items-center justify-between">
           <div className="flex items-center space-x-4">
-            <div className="p-2 bg-purple-600 rounded-lg text-white">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-6 w-6"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4"
-                />
-              </svg>
-            </div>
-            <span className="font-bold text-xl">EasyLearn</span>
-
+          <div className="flex items-center gap-2">
+                <Award size={28} />
+                <span className="text-xl md:text-2xl font-bold text-blue-600 hover:text-blue-800 transition-colors duration-300">
+                  EASYLEARN
+                </span>
+              </div>
             <div className="ml-4 flex items-center space-x-1 text-sm">
               <span className="text-gray-500">Courses</span>
-              <span className="text-gray-500">/</span>
-              <span className="text-gray-500">UI UX Design</span>
               <span className="text-gray-500">/</span>
               <span>{course.title}</span>
             </div>

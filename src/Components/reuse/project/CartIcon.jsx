@@ -27,9 +27,9 @@ const CartIcon = () => {
 
   return (
     <Link to="/app/cart" className="relative btn btn-ghost btn-circle">
-      <ShoppingCart className="h-6 w-6" />
+      <ShoppingCart className="h-8 w-6" />
       {cartItems.length > 0 && (
-        <span className="absolute -top-1 -right-1 bg-red-500 text-white rounded-full h-5 w-5 flex items-center justify-center text-xs">
+        <span className="absolute -top-1 -right-4 bg-red-500 text-white rounded-full h-5 w-5 flex items-center justify-center text-xs">
           {cartItems.length}
         </span>
       )}

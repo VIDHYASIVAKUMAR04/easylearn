@@ -5,7 +5,7 @@ import {BrowserRouter, Routes, Route, Navigate} from 'react-router-dom'
 import Login from './Components/reuse/auth/login'
 import Register from './Components/reuse/auth/register'
 import AuthLayout from './Components/reuse/auth/authContainer'
-import Home from './Components/main/Home'
+import Home from './Home'
 
 function App() {
 
