@@ -256,10 +256,11 @@ const CoursueDashboard = () => {
                 <br />
                 EasyLearn Online Courses
               </h2>
-              <button className="bg-black text-white px-4 py-2 rounded-lg text-sm font-medium flex items-center gap-2">
-                
-                Join Now
+              <button className="bg-black text-white px-4 py-2 rounded-lg text-sm font-medium flex items-center gap-2  hover:bg-gray-600 transition-colors duration-200">
+                <Link to="/app/cart" className="flex items-center">
+                JOIN NOW!!
                 <ChevronRight size={16} />
+                </Link>
               </button>
             </div>
           </div>
