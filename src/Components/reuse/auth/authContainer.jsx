@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Outlet, Link } from 'react-router-dom';
-import { Search, LogIn, UserPlus, Menu, X } from 'lucide-react';
+import { Search, LogIn, UserPlus, Menu, X, Award } from 'lucide-react';
 
 const AuthLayout = () => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -31,31 +31,14 @@ const AuthLayout = () => {
           {/* Logo */}
           <Link 
             to="/" 
-            className="text-2xl font-bold text-blue-600 hover:text-blue-800 transition-colors duration-300"
+            className="text-2xl font-bold text-blue-600 hover:text-blue-800 transition-colors duration-300 flex items-center gap-3"
           >
-            EasyLearn
+            <Award size={28} className='text-black'/>
+           <div>EasyLearn</div>
           </Link>
 
           {/* Desktop Search and Auth Buttons */}
-          <div className="hidden md:flex items-center space-x-4 flex-grow justify-center">
-            {/* Search Bar */}
-            <div className="flex-grow max-w-md">
-              <div className="relative">
-                <input 
-                  type="text" 
-                  placeholder="Search courses, topics..."
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full pl-10 pr-4 py-2 rounded-full border border-gray-00 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-300"
-                />
-                <Search 
-                  className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" 
-                  size={20} 
-                />
-              </div>
-            </div>
-          </div>
-
+         
           {/* Desktop Auth Buttons */}
           <div className="hidden md:flex space-x-3">
             <Link 
@@ -88,23 +71,7 @@ const AuthLayout = () => {
         {/* Mobile Menu Dropdown */}
         {isMobileMenuOpen && (
           <div className="md:hidden absolute top-full left-0 right-0 bg-white shadow-md">
-            {/* Mobile Search */}
-            <div className="p-4 border-b">
-              <div className="relative">
-                <input 
-                  type="text" 
-                  placeholder="Search courses, topics..."
-                  value={searchQuery}
-                  onChange={(e) => setSearchQuery(e.target.value)}
-                  className="w-full pl-10 pr-4 py-2 rounded-full border border-gray-200 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-300"
-                />
-                <Search 
-                  className="absolute left-3 top-1/2 -translate-y-1/2 text-gray-400" 
-                  size={20} 
-                />
-              </div>
-            </div>
-
+           
             {/* Mobile Auth Buttons */}
             <div className="flex flex-col p-4 space-y-3">
               <Link 
