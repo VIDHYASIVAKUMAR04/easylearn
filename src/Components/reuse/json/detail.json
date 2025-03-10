@@ -1,0 +1,1053 @@
+{
+    "courses": [
+  {
+    "course_id": "C101",
+    "title": "Figma from A to Z",
+    "img_url": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187093/c1_k4dalt.jpg",
+    "category": "UI/UX Design",
+    "price": 99.99,
+    "discount": 120.99,
+    "lessons": 38,
+    "duration": "4h 30min",
+    "rating": 4.5,
+    "reviews": 126,
+    "instructor": {
+      "name": "Crystal Lucas",
+      "title": "UI/UX Specialist",
+      "rating": 4.8,
+      "verified": true
+    },
+    "modules": [
+      {
+        "id": "01",
+        "title": "Intro",
+        "duration": "22min",
+        "expanded": true,
+        "lessons": [
+          { "title": "Introduction", "duration": "2 min" },
+          { "title": "What is Figma?", "duration": "5 min" },
+          { "title": "Understanding Figma", "duration": "12 min" },
+          { "title": "UI tour", "duration": "3 min" }
+        ]
+      },
+      {
+        "id": "02",
+        "title": "Intermediate Level Stuff",
+        "duration": "1h 20min",
+        "expanded": false
+      },
+      {
+        "id": "03",
+        "title": "Advanced Stuff",
+        "duration": "36min",
+        "expanded": false
+      },
+      {
+        "id": "04",
+        "title": "Imports & Graphics",
+        "duration": "40min",
+        "expanded": false
+      },
+      {
+        "id": "05",
+        "title": "Component in Figma",
+        "duration": "1h 12min",
+        "expanded": false
+      },
+      {
+        "id": "06",
+        "title": "Styles in Figma",
+        "duration": "41min",
+        "expanded": false
+      },
+      {
+        "id": "07",
+        "title": "Summary",
+        "duration": "8min",
+        "expanded": false
+      }
+    ],
+    "description": {
+      "about": "Unlock the power of Figma, the leading collaborative design tool, with our comprehensive online course. Whether you're a novice or looking to enhance your skills, this course will guide you through Figma's robust features and workflows.",
+      "forWhom": "Perfect for UI/UX designers, product managers, and anyone interested in modern design tools. Join us to elevate your design skills and boost your productivity with Figma!"
+    },
+    "learningOutcomes": [
+      "Setting up the environment",
+      "Advanced HTML Practices",
+      "Build a portfolio website",
+      "Responsive Designs",
+      "Understand HTML Programming",
+      "Code HTML",
+      "Start building beautiful websites"
+    ]
+  },
+  {
+    "course_id": "C102",
+    "title": "JavaScript Mastery",
+    "img_url": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187136/c2_kzrhbc.jpg",
+    "category": "Web Development",
+    "lessons": 45,
+    "price": 49.99,
+    "discount": 120.99,
+    "duration": "6h 15min",
+    "rating": 4.7,
+    "reviews": 234,
+    "instructor": {
+      "name": "John Doe",
+      "title": "Senior Web Developer",
+      "rating": 4.9,
+      "verified": true
+    },
+    "modules": [
+      {
+        "id": "01",
+        "title": "Introduction to JavaScript",
+        "duration": "30min",
+        "expanded": true,
+        "lessons": [
+          { "title": "What is JavaScript?", "duration": "5 min" },
+          { "title": "Setting Up Your Environment", "duration": "10 min" },
+          { "title": "Basic Syntax", "duration": "15 min" }
+        ]
+      },
+      {
+        "id": "02",
+        "title": "Intermediate JavaScript",
+        "duration": "1h 45min",
+        "expanded": false
+      },
+      {
+        "id": "03",
+        "title": "Advanced JavaScript",
+        "duration": "2h 30min",
+        "expanded": false
+      }
+    ],
+    "description": {
+      "about": "Master JavaScript, the language of the web, with this comprehensive course. Learn everything from basic syntax to advanced concepts like closures and promises.",
+      "forWhom": "Ideal for beginners and experienced developers looking to deepen their understanding of JavaScript."
+    },
+    "learningOutcomes": [
+      "Understand JavaScript fundamentals",
+      "Master advanced JavaScript concepts",
+      "Build interactive web applications"
+    ]
+  },
+  {
+    "course_id": "C103",
+    "title": "Python for Data Science",
+    "img_url": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187162/c3_feiu0p.jpg",
+    "category": "Data Science",
+    "lessons": 50,
+    "price": 89.99,
+    "duration": "7h 20min",
+    "rating": 4.8,
+    "reviews": 345,
+    "instructor": {
+      "name": "Jane Smith",
+      "title": "Data Scientist",
+      "rating": 4.7,
+      "verified": true
+    },
+    "modules": [
+      {
+        "id": "01",
+        "title": "Introduction to Python",
+        "duration": "25min",
+        "expanded": true,
+        "lessons": [
+          { "title": "Python Basics", "duration": "10 min" },
+          { "title": "Data Types", "duration": "15 min" }
+        ]
+      },
+      {
+        "id": "02",
+        "title": "Data Analysis with Python",
+        "duration": "2h 10min",
+        "expanded": false
+      },
+      {
+        "id": "03",
+        "title": "Machine Learning Basics",
+        "duration": "3h 15min",
+        "expanded": false
+      }
+    ],
+    "description": {
+      "about": "Learn Python for data science and machine learning. This course covers everything from basic Python programming to advanced data analysis techniques.",
+      "forWhom": "Perfect for aspiring data scientists and analysts."
+    },
+    "learningOutcomes": [
+      "Understand Python basics",
+      "Perform data analysis with Python",
+      "Build machine learning models"
+    ]
+  },
+  {
+    "course_id": "C104",
+    "title": "React Native for Beginners",
+    "img_url": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187187/c4_ekutqx.jpg",
+    "category": "Mobile Development",
+    "lessons": 40,
+    "price": 109.99,
+    "discount": 120.99,
+    "duration": "5h 45min",
+    "rating": 4.6,
+    "reviews": 189,
+    "instructor": {
+      "name": "Alice Johnson",
+      "title": "Mobile Developer",
+      "rating": 4.8,
+      "verified": true
+    },
+    "modules": [
+      {
+        "id": "01",
+        "title": "Introduction to React Native",
+        "duration": "20min",
+        "expanded": true,
+        "lessons": [
+          { "title": "What is React Native?", "duration": "5 min" },
+          { "title": "Setting Up Your Environment", "duration": "15 min" }
+        ]
+      },
+      {
+        "id": "02",
+        "title": "Building Your First App",
+        "duration": "1h 30min",
+        "expanded": false
+      },
+      {
+        "id": "03",
+        "title": "Advanced Topics",
+        "duration": "2h 45min",
+        "expanded": false
+      }
+    ],
+    "description": {
+      "about": "Learn how to build mobile applications using React Native. This course covers everything from setting up your environment to building and deploying your first app.",
+      "forWhom": "Ideal for beginners and experienced developers looking to get into mobile development."
+    },
+    "learningOutcomes": [
+      "Understand React Native basics",
+      "Build and deploy mobile apps",
+      "Master advanced React Native concepts"
+    ]
+  },
+  {
+    "course_id": "C105",
+    "title": "Advanced CSS and Sass",
+    "img_url": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187211/c5_jdr9fp.jpg",
+    "category": "Web Development",
+    "lessons": 35,
+    "price": 69.99,
+    "discount": 120.99,
+    "duration": "4h 50min",
+    "rating": 4.7,
+    "reviews": 210,
+    "instructor": {
+      "name": "Emily Davis",
+      "title": "Frontend Developer",
+      "rating": 4.9,
+      "verified": true
+    },
+    "modules": [
+      {
+        "id": "01",
+        "title": "Introduction to Advanced CSS",
+        "duration": "15min",
+        "expanded": true,
+        "lessons": [
+          { "title": "CSS Fundamentals", "duration": "5 min" },
+          { "title": "Advanced Selectors", "duration": "10 min" }
+        ]
+      },
+      {
+        "id": "02",
+        "title": "Sass Basics",
+        "duration": "1h 20min",
+        "expanded": false
+      },
+      {
+        "id": "03",
+        "title": "Advanced Techniques",
+        "duration": "2h 15min",
+        "expanded": false
+      }
+    ],
+    "description": {
+      "about": "Take your CSS skills to the next level with this advanced course. Learn how to use Sass to write more efficient and maintainable CSS.",
+      "forWhom": "Perfect for frontend developers looking to enhance their CSS skills."
+    },
+    "learningOutcomes": [
+      "Master advanced CSS techniques",
+      "Write efficient and maintainable CSS with Sass",
+      "Build responsive and modern web designs"
+    ]
+  },
+  {
+    "course_id": "C106",
+    "title": "Node.js and Express",
+    "img_url": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187273/c6_ttfeiu.jpg",
+    "category": "Backend Development",
+    "lessons": 30,
+    "duration": "4h 10min",
+    "rating": 4.6,
+    "price": 99.99,
+    "discount": 120.99,
+    "reviews": 178,
+    "instructor": {
+      "name": "Michael Brown",
+      "title": "Backend Developer",
+      "rating": 4.7,
+      "verified": true
+    },
+    "modules": [
+      {
+        "id": "01",
+        "title": "Introduction to Node.js",
+        "duration": "20min",
+        "expanded": true,
+        "lessons": [
+          { "title": "What is Node.js?", "duration": "5 min" },
+          { "title": "Setting Up Node.js", "duration": "15 min" }
+        ]
+      },
+      {
+        "id": "02",
+        "title": "Building APIs with Express",
+        "duration": "1h 30min",
+        "expanded": false
+      },
+      {
+        "id": "03",
+        "title": "Advanced Topics",
+        "duration": "2h 20min",
+        "expanded": false
+      }
+    ],
+    "description": {
+      "about": "Learn how to build scalable and efficient backend applications using Node.js and Express. This course covers everything from the basics to advanced topics.",
+      "forWhom": "Ideal for backend developers and those looking to get into backend development."
+    },
+    "learningOutcomes": [
+      "Understand Node.js basics",
+      "Build RESTful APIs with Express",
+      "Master advanced backend techniques"
+    ]
+  },
+  {
+    "course_id": "C107",
+    "title": "Machine Learning with Python",
+    "img_url": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187300/c7_jeixvq.jpg",
+    "category": "Data Science",
+    "lessons": 55,
+    "duration": "8h 30min",
+    "rating": 4.9,
+    "price": 59.99,
+    "discount": 120.99,
+    "reviews": 456,
+    "instructor": {
+      "name": "David Wilson",
+      "title": "Machine Learning Engineer",
+      "rating": 4.8,
+      "verified": true
+    },
+    "modules": [
+      {
+        "id": "01",
+        "title": "Introduction to Machine Learning",
+        "duration": "30min",
+        "expanded": true,
+        "lessons": [
+          { "title": "What is Machine Learning?", "duration": "10 min" },
+          { "title": "Setting Up Your Environment", "duration": "20 min" }
+        ]
+      },
+      {
+        "id": "02",
+        "title": "Supervised Learning",
+        "duration": "3h 15min",
+        "expanded": false
+      },
+      {
+        "id": "03",
+        "title": "Unsupervised Learning",
+        "duration": "4h 45min",
+        "expanded": false
+      }
+    ],
+    "description": {
+      "about": "Dive into the world of machine learning with Python. This course covers everything from basic concepts to advanced algorithms.",
+      "forWhom": "Perfect for aspiring data scientists and machine learning engineers."
+    },
+    "learningOutcomes": [
+      "Understand machine learning basics",
+      "Implement supervised and unsupervised learning algorithms",
+      "Build and evaluate machine learning models"
+    ]
+  },
+  {
+    "course_id": "C108",
+    "title": "Vue.js for Beginners",
+    "img_url": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187323/c8_m71ea8.jpg",
+    "category": "Web Development",
+    "lessons": 25,
+    "price": 29.99,
+    "discount": 220.99,
+    "duration": "3h 45min",
+    "rating": 4.5,
+    "reviews": 123,
+    "instructor": {
+      "name": "Sarah Lee",
+      "title": "Frontend Developer",
+      "rating": 4.6,
+      "verified": true
+    },
+    "modules": [
+      {
+        "id": "01",
+        "title": "Introduction to Vue.js",
+        "duration": "15min",
+        "expanded": true,
+        "lessons": [
+          { "title": "What is Vue.js?", "duration": "5 min" },
+          { "title": "Setting Up Vue.js", "duration": "10 min" }
+        ]
+      },
+      {
+        "id": "02",
+        "title": "Building Your First App",
+        "duration": "1h 20min",
+        "expanded": false
+      },
+      {
+        "id": "03",
+        "title": "Advanced Topics",
+        "duration": "2h 10min",
+        "expanded": false
+      }
+    ],
+    "description": {
+      "about": "Learn how to build modern web applications with Vue.js. This course covers everything from the basics to advanced topics.",
+      "forWhom": "Ideal for beginners and experienced developers looking to learn Vue.js."
+    },
+    "learningOutcomes": [
+      "Understand Vue.js basics",
+      "Build and deploy Vue.js applications",
+      "Master advanced Vue.js concepts"
+    ]
+  },
+  {
+    "course_id": "C109",
+    "title": "Docker and Kubernetes",
+    "img_url": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187346/c9_zddkca.jpg",
+    "category": "DevOps",
+    "lessons": 40,
+    "duration": "5h 30min",
+    "rating": 4.7,
+    "price": 49.99,
+    "discount": 188.99,
+    "reviews": 234,
+    "instructor": {
+      "name": "Chris Evans",
+      "title": "DevOps Engineer",
+      "rating": 4.8,
+      "verified": true
+    },
+    "modules": [
+      {
+        "id": "01",
+        "title": "Introduction to Docker",
+        "duration": "20min",
+        "expanded": true,
+        "lessons": [
+          { "title": "What is Docker?", "duration": "5 min" },
+          { "title": "Setting Up Docker", "duration": "15 min" }
+        ]
+      },
+      {
+        "id": "02",
+        "title": "Kubernetes Basics",
+        "duration": "2h 15min",
+        "expanded": false
+      },
+      {
+        "id": "03",
+        "title": "Advanced Orchestration",
+        "duration": "2h 55min",
+        "expanded": false
+      }
+    ],
+    "description": {
+      "about": "Learn how to containerize and orchestrate your applications with Docker and Kubernetes. This course covers everything from the basics to advanced topics.",
+      "forWhom": "Ideal for DevOps engineers and developers looking to learn containerization."
+    },
+    "learningOutcomes": [
+      "Understand Docker basics",
+      "Deploy applications with Kubernetes",
+      "Master advanced container orchestration techniques"
+    ]
+  },
+  {
+    "course_id": "C110",
+    "title": "GraphQL with Apollo",
+    "img_url": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187378/c10_dtwze8.jpg",
+    "category": "Web Development",
+    "lessons": 30,
+    "duration": "4h 20min",
+    "price": 59.99,
+    "discount": 200.99,
+    "rating": 4.6,
+    "reviews": 189,
+    "instructor": {
+      "name": "Laura Green",
+      "title": "Full Stack Developer",
+      "rating": 4.7,
+      "verified": true
+    },
+    "modules": [
+      {
+        "id": "01",
+        "title": "Introduction to GraphQL",
+        "duration": "15min",
+        "expanded": true,
+        "lessons": [
+          { "title": "What is GraphQL?", "duration": "5 min" },
+          { "title": "Setting Up Apollo Server", "duration": "10 min" }
+        ]
+      },
+      {
+        "id": "02",
+        "title": "Building APIs with GraphQL",
+        "duration": "1h 45min",
+        "expanded": false
+      },
+      {
+        "id": "03",
+        "title": "Advanced Topics",
+        "duration": "2h 20min",
+        "expanded": false
+      }
+    ],
+    "description": {
+      "about": "Learn how to build modern APIs with GraphQL and Apollo. This course covers everything from the basics to advanced topics.",
+      "forWhom": "Ideal for full stack developers and those looking to learn GraphQL."
+    },
+    "learningOutcomes": [
+      "Understand GraphQL basics",
+      "Build and deploy GraphQL APIs",
+      "Master advanced GraphQL concepts"
+    ]
+  },
+  {
+    "course_id": "C112",
+    "title": "Flutter for Beginners",
+    "img_url": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187406/c11_ip5wkc.jpg",
+    "category": "Mobile Development",
+    "lessons": 35,
+    "duration": "5h 10min",
+    "rating": 4.5,
+    "price": 30.99,
+    "discount": 120.99,
+    "reviews": 167,
+    "instructor": {
+      "name": "Mark Taylor",
+      "title": "Mobile Developer",
+      "rating": 4.6,
+      "verified": true
+    },
+    "modules": [
+      {
+        "id": "01",
+        "title": "Introduction to Flutter",
+        "duration": "20min",
+        "expanded": true,
+        "lessons": [
+          { "title": "What is Flutter?", "duration": "5 min" },
+          { "title": "Setting Up Flutter", "duration": "15 min" }
+        ]
+      },
+      {
+        "id": "02",
+        "title": "Building Your First App",
+        "duration": "1h 30min",
+        "expanded": false
+      },
+      {
+        "id": "03",
+        "title": "Advanced Topics",
+        "duration": "2h 20min",
+        "expanded": false
+      }
+    ],
+    "description": {
+      "about": "Learn how to build cross-platform mobile applications with Flutter. This course covers everything from the basics to advanced topics.",
+      "forWhom": "Ideal for beginners and experienced developers looking to learn Flutter."
+    },
+    "learningOutcomes": [
+      "Understand Flutter basics",
+      "Build and deploy mobile apps",
+      "Master advanced Flutter concepts"
+    ]
+  },
+  {
+    "course_id": "C113",
+    "title": "AWS for Developers",
+    "img_url": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187437/c12_a5tnhg.jpg",
+    "category": "Cloud Computing",
+    "lessons": 40,
+    "duration": "6h 15min",
+    "rating": 4.7,
+    "price": 209.99,
+    "discount": 1200.99,
+    "reviews": 245,
+    "instructor": {
+      "name": "Anna White",
+      "title": "Cloud Engineer",
+      "rating": 4.8,
+      "verified": true
+    },
+    "modules": [
+      {
+        "id": "01",
+        "title": "Introduction to AWS",
+        "duration": "25min",
+        "expanded": true,
+        "lessons": [
+          { "title": "What is AWS?", "duration": "10 min" },
+          { "title": "Setting Up Your AWS Account", "duration": "15 min" }
+        ]
+      },
+      {
+        "id": "02",
+        "title": "Core Services",
+        "duration": "2h 30min",
+        "expanded": false
+      },
+      {
+        "id": "03",
+        "title": "Advanced Topics",
+        "duration": "3h 20min",
+        "expanded": false
+      }
+    ],
+    "description": {
+      "about": "Learn how to use AWS to build and deploy scalable applications. This course covers everything from the basics to advanced topics.",
+      "forWhom": "Ideal for developers and cloud engineers looking to learn AWS."
+    },
+    "learningOutcomes": [
+      "Understand AWS basics",
+      "Deploy applications on AWS",
+      "Master advanced AWS services"
+    ]
+  },
+  {
+    "course_id": "C114",
+    "title": "Angular for Beginners",
+    "img_url": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187470/c13_jysyzr.jpg",
+    "category": "Web Development",
+    "lessons": 30,
+    "duration": "4h 45min",
+    "rating": 4.6,
+    "price": 100.99,
+    "discount": 160.99,
+    "reviews": 198,
+    "instructor": {
+      "name": "Brian Clark",
+      "title": "Frontend Developer",
+      "rating": 4.7,
+      "verified": true
+    },
+    "modules": [
+      {
+        "id": "01",
+        "title": "Introduction to Angular",
+        "duration": "20min",
+        "expanded": true,
+        "lessons": [
+          { "title": "What is Angular?", "duration": "5 min" },
+          { "title": "Setting Up Angular", "duration": "15 min" }
+        ]
+      },
+      {
+        "id": "02",
+        "title": "Building Your First App",
+        "duration": "1h 30min",
+        "expanded": false
+      },
+      {
+        "id": "03",
+        "title": "Advanced Topics",
+        "duration": "2h 55min",
+        "expanded": false
+      }
+    ],
+    "description": {
+      "about": "Learn how to build modern web applications with Angular. This course covers everything from the basics to advanced topics.",
+      "forWhom": "Ideal for beginners and experienced developers looking to learn Angular."
+    },
+    "learningOutcomes": [
+      "Understand Angular basics",
+      "Build and deploy Angular applications",
+      "Master advanced Angular concepts"
+    ]
+  },
+  {
+    "course_id": "C115",
+    "title": "Blockchain Basics",
+    "img_url": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187497/c14_lzqqru.jpg",
+    "category": "Blockchain",
+    "lessons": 25,
+    "price": 209.99,
+    "discount": 1000.99,
+    "duration": "3h 30min",
+    "rating": 4.5,
+    "reviews": 145,
+    "instructor": {
+      "name": "Ethan Brown",
+      "title": "Blockchain Developer",
+      "rating": 4.6,
+      "verified": true
+    },
+    "modules": [
+      {
+        "id": "01",
+        "title": "Introduction to Blockchain",
+        "duration": "15min",
+        "expanded": true,
+        "lessons": [
+          { "title": "What is Blockchain?", "duration": "5 min" },
+          { "title": "Setting Up Your Environment", "duration": "10 min" }
+        ]
+      },
+      {
+        "id": "02",
+        "title": "Building Your First Blockchain",
+        "duration": "1h 20min",
+        "expanded": false
+      },
+      {
+        "id": "03",
+        "title": "Advanced Topics",
+        "duration": "1h 55min",
+        "expanded": false
+      }
+    ],
+    "description": {
+      "about": "Learn the fundamentals of blockchain technology. This course covers everything from the basics to building your own blockchain.",
+      "forWhom": "Ideal for developers and enthusiasts looking to learn blockchain."
+    },
+    "learningOutcomes": [
+      "Understand blockchain basics",
+      "Build and deploy a blockchain",
+      "Master advanced blockchain concepts"
+    ]
+  },
+  {
+    "course_id": "C116",
+    "title": "Cybersecurity Essentials",
+    "img_url": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187532/c15_txcakw.jpg",
+    "category": "Cybersecurity",
+    "lessons": 35,
+    "price": 199.99,
+    "discount": 299.99,
+    "duration": "5h 20min",
+    "rating": 4.7,
+    "reviews": 210,
+    "instructor": {
+      "name": "Olivia Harris",
+      "title": "Cybersecurity Expert",
+      "rating": 4.8,
+      "verified": true
+    },
+    "modules": [
+      {
+        "id": "01",
+        "title": "Introduction to Cybersecurity",
+        "duration": "20min",
+        "expanded": true,
+        "lessons": [
+          { "title": "What is Cybersecurity?", "duration": "5 min" },
+          { "title": "Setting Up Your Environment", "duration": "15 min" }
+        ]
+      },
+      {
+        "id": "02",
+        "title": "Network Security",
+        "duration": "1h 45min",
+        "expanded": false
+      },
+      {
+        "id": "03",
+        "title": "Advanced Topics",
+        "duration": "2h 15min",
+        "expanded": false
+      }
+    ],
+    "description": {
+      "about": "Learn the essentials of cybersecurity. This course covers everything from basic concepts to advanced techniques.",
+      "forWhom": "Ideal for IT professionals and enthusiasts looking to learn cybersecurity."
+    },
+    "learningOutcomes": [
+      "Understand cybersecurity basics",
+      "Implement network security measures",
+      "Master advanced cybersecurity techniques"
+    ]
+  },
+  {
+    "course_id": "C117",
+    "title": "Swift for iOS Development",
+    "img_url": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187564/c16_gjameb.jpg",
+    "category": "Mobile Development",
+    "lessons": 40,
+    "duration": "6h 10min",
+    "rating": 4.6,
+    "price": 249.99,
+    "discount": 299.99,
+    "reviews": 189,
+    "instructor": {
+      "name": "Sophia Martinez",
+      "title": "iOS Developer",
+      "rating": 4.7,
+      "verified": true
+    },
+    "modules": [
+      {
+        "id": "01",
+        "title": "Introduction to Swift",
+        "duration": "25min",
+        "expanded": true,
+        "lessons": [
+          { "title": "What is Swift?", "duration": "5 min" },
+          { "title": "Setting Up Xcode", "duration": "20 min" }
+        ]
+      },
+      {
+        "id": "02",
+        "title": "Building Your First App",
+        "duration": "2h 15min",
+        "expanded": false
+      },
+      {
+        "id": "03",
+        "title": "Advanced Topics",
+        "duration": "3h 30min",
+        "expanded": false
+      }
+    ],
+    "description": {
+      "about": "Learn how to build iOS applications with Swift. This course covers everything from the basics to advanced topics.",
+      "forWhom": "Ideal for beginners and experienced developers looking to learn Swift."
+    },
+    "learningOutcomes": [
+      "Understand Swift basics",
+      "Build and deploy iOS apps",
+      "Master advanced Swift concepts"
+    ]
+  },
+  {
+    "course_id": "C118",
+    "title": "DevOps with Jenkins",
+    "img_url": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187596/c17_oeucsd.jpg",
+    "category": "DevOps",
+    "lessons": 30,
+    "duration": "4h 45min",
+    "rating": 4.5,
+    "price": 199.99,
+    "discount": 249.99,
+    "reviews": 167,
+    "instructor": {
+      "name": "Daniel Wilson",
+      "title": "DevOps Engineer",
+      "rating": 4.6,
+      "verified": true
+    },
+    "modules": [
+      {
+        "id": "01",
+        "title": "Introduction to Jenkins",
+        "duration": "20min",
+        "expanded": true,
+        "lessons": [
+          { "title": "What is Jenkins?", "duration": "5 min" },
+          { "title": "Setting Up Jenkins", "duration": "15 min" }
+        ]
+      },
+      {
+        "id": "02",
+        "title": "Building CI/CD Pipelines",
+        "duration": "1h 45min",
+        "expanded": false
+      },
+      {
+        "id": "03",
+        "title": "Advanced Topics",
+        "duration": "2h 40min",
+        "expanded": false
+      }
+    ],
+    "description": {
+      "about": "Learn how to implement CI/CD pipelines with Jenkins. This course covers everything from the basics to advanced topics.",
+      "forWhom": "Ideal for DevOps engineers and developers looking to learn Jenkins."
+    },
+    "learningOutcomes": [
+      "Understand Jenkins basics",
+      "Build and manage CI/CD pipelines",
+      "Master advanced Jenkins techniques"
+    ]
+  },
+  {
+    "course_id": "C119",
+    "title": "Rust Programming",
+    "img_url": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187623/c18_o8bhhf.jpg",
+    "category": "Programming",
+    "lessons": 35,
+    "duration": "5h 20min",
+    "rating": 4.6,
+    "price": 149.99,
+    "discount": 199.99,
+    "reviews": 178,
+    "instructor": {
+      "name": "Lucas Brown",
+      "title": "Software Engineer",
+      "rating": 4.7,
+      "verified": true
+    },
+    "modules": [
+      {
+        "id": "01",
+        "title": "Introduction to Rust",
+        "duration": "25min",
+        "expanded": true,
+        "lessons": [
+          { "title": "What is Rust?", "duration": "5 min" },
+          { "title": "Setting Up Rust", "duration": "20 min" }
+        ]
+      },
+      {
+        "id": "02",
+        "title": "Building Your First Program",
+        "duration": "1h 30min",
+        "expanded": false
+      },
+      {
+        "id": "03",
+        "title": "Advanced Topics",
+        "duration": "2h 25min",
+        "expanded": false
+      }
+    ],
+    "description": {
+      "about": "Learn how to write safe and efficient code with Rust. This course covers everything from the basics to advanced topics.",
+      "forWhom": "Ideal for developers looking to learn Rust."
+    },
+    "learningOutcomes": [
+      "Understand Rust basics",
+      "Build and deploy Rust applications",
+      "Master advanced Rust concepts"
+    ]
+  },
+  {
+    "course_id": "C120",
+    "title": "Kotlin for Android Development",
+    "img_url": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187646/c19_xa9if9.jpg",
+    "category": "Mobile Development",
+    "lessons": 40,
+    "duration": "6h 15min",
+    "rating": 4.7,
+    "price": 99.99,
+    "discount":  149.99,
+    "reviews": 210,
+    "instructor": {
+      "name": "Emma Johnson",
+      "title": "Android Developer",
+      "rating": 4.8,
+      "verified": true
+    },
+    "modules": [
+      {
+        "id": "01",
+        "title": "Introduction to Kotlin",
+        "duration": "20min",
+        "expanded": true,
+        "lessons": [
+          { "title": "What is Kotlin?", "duration": "5 min" },
+          { "title": "Setting Up Android Studio", "duration": "15 min" }
+        ]
+      },
+      {
+        "id": "02",
+        "title": "Building Your First App",
+        "duration": "2h 15min",
+        "expanded": false
+      },
+      {
+        "id": "03",
+        "title": "Advanced Topics",
+        "duration": "3h 40min",
+        "expanded": false
+      }
+    ],
+    "description": {
+      "about": "Learn how to build Android applications with Kotlin. This course covers everything from the basics to advanced topics.",
+      "forWhom": "Ideal for beginners and experienced developers looking to learn Kotlin."
+    },
+    "learningOutcomes": [
+      "Understand Kotlin basics",
+      "Build and deploy Android apps",
+      "Master advanced Kotlin concepts"
+    ]
+  },
+  {
+    "title": "Go Programming",
+    "img_url": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187673/c20_hqcvkt.jpg",
+    "category": "Programming",
+    "lessons": 30,
+    "duration": "4h 30min",
+    "rating": 4.6,
+    "price": 99.99,
+    "discount": 149.99,
+    "reviews": 189,
+    "instructor": {
+      "name": "Noah Garcia",
+      "title": "Software Engineer",
+      "rating": 4.7,
+      "verified": true
+    },
+    "modules": [
+      {
+        "id": "01",
+        "title": "Introduction to Go",
+        "duration": "15min",
+        "expanded": true,
+        "lessons": [
+          { "title": "What is Go?", "duration": "5 min" },
+          { "title": "Setting Up Go", "duration": "10 min" }
+        ]
+      },
+      {
+        "id": "02",
+        "title": "Building Your First Program",
+        "duration": "1h 30min",
+        "expanded": false
+      },
+      {
+        "id": "03",
+        "title": "Advanced Topics",
+        "duration": "2h 45min",
+        "expanded": false
+      }
+    ],
+    "description": {
+      "about": "Learn how to write efficient and scalable code with Go. This course covers everything from the basics to advanced topics.",
+      "forWhom": "Ideal for developers looking to learn Go."
+    },
+    "learningOutcomes": [
+      "Understand Go basics",
+      "Build and deploy Go applications",
+      "Master advanced Go concepts"
+    ]
+  }
+]
+}

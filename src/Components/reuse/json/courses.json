@@ -1,0 +1,324 @@
+{
+    "courses": [
+      {
+        "course_id": "C101",
+        "title": "Full Stack Web Development",
+        "image": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187093/c1_k4dalt.jpg",
+        "video_link": "https://www.youtube.com/watch?v=N46kbHlpNlM&pp=ygUqZnVsbCBzdGFjayB3ZWIgZGV2ZWxvcG1lbnQgY291cnNlIGluIHRhbWls",
+        "rating": 4.8,
+        "duration": "12 weeks",
+        "professor": "Dr. John Doe",
+        "viewed_count": 1200,
+        "status": "learned",
+        "description": [
+          "Learn frontend and backend development",
+          "Work with React, Node.js, and MongoDB",
+          "Build and deploy full-stack applications"
+        ]
+      },
+      {
+        "course_id": "C102",
+        "title": "React.js Fundamentals",
+        "image": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187136/c2_kzrhbc.jpg",
+        "video_link": "https://www.youtube.com/watch?v=PmLt6ckEM6A&pp=ygUqZnVsbCBzdGFjayB3ZWIgZGV2ZWxvcG1lbnQgY291cnNlIGluIHRhbWls",
+        "rating": 4.7,
+        "duration": "8 weeks",
+        "professor": "Prof. Jane Smith",
+        "viewed_count": 950,
+        "status": "upcoming",
+        "description": [
+          "Understand React components and hooks",
+          "Manage state with Redux and Context API",
+          "Build dynamic web applications"
+        ]
+      },
+      {
+        "course_id": "C103",
+        "title": "Java Programming Basics",
+        "image": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187162/c3_feiu0p.jpg",
+        "video_link": "https://www.youtube.com/watch?v=HAIClLQxyq0&pp=ygUqZnVsbCBzdGFjayB3ZWIgZGV2ZWxvcG1lbnQgY291cnNlIGluIHRhbWls",
+        "rating": 4.6,
+        "duration": "10 weeks",
+        "professor": "Dr. Alan Turing",
+        "viewed_count": 1800,
+        "status": "learned",
+        "description": [
+          "Master Java syntax and object-oriented programming",
+          "Understand data structures and algorithms",
+          "Develop Java applications with Spring Boot"
+        ]
+      },
+      {
+        "course_id": "C104",
+        "title": "Machine Learning Essentials",
+        "image": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187187/c4_ekutqx.jpg",
+        "video_link": "https://www.youtube.com/watch?v=ch6CbHMjwS4&pp=ygUqZnVsbCBzdGFjayB3ZWIgZGV2ZWxvcG1lbnQgY291cnNlIGluIHRhbWls",
+        "rating": 4.9,
+        "duration": "14 weeks",
+        "professor": "Prof. Andrew Ng",
+        "viewed_count": 2500,
+        "status": "upcoming",
+        "description": [
+          "Learn supervised and unsupervised learning",
+          "Work with Python libraries like TensorFlow",
+          "Build and evaluate machine learning models"
+        ]
+      },
+      {
+        "course_id": "C105",
+        "title": "Python for Data Science",
+        "image": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187211/c5_jdr9fp.jpg",
+        "video_link": "https://www.youtube.com/watch?v=Z6CIv0b4whY&pp=ygUqZnVsbCBzdGFjayB3ZWIgZGV2ZWxvcG1lbnQgY291cnNlIGluIHRhbWls",
+        "rating": 4.8,
+        "duration": "10 weeks",
+        "professor": "Dr. Hannah Lee",
+        "viewed_count": 1500,
+        "status": "learned",
+        "description": [
+          "Learn Python programming for data analysis",
+          "Work with Pandas, NumPy, and Matplotlib",
+          "Implement data visualization techniques"
+        ]
+      },
+      {
+        "course_id": "C106",
+        "title": "Cybersecurity Fundamentals",
+        "image": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187273/c6_ttfeiu.jpg",
+        "video_link": "https://www.youtube.com/watch?v=uZOdslQSTmE&pp=ygUqZnVsbCBzdGFjayB3ZWIgZGV2ZWxvcG1lbnQgY291cnNlIGluIHRhbWls",
+        "rating": 4.7,
+        "duration": "12 weeks",
+        "professor": "Dr. Emily Watson",
+        "viewed_count": 1300,
+        "status": "upcoming",
+        "description": [
+          "Understand network security and cryptography",
+          "Learn ethical hacking techniques",
+          "Secure systems against cyber threats"
+        ]
+      },
+      {
+        "course_id": "C107",
+        "title": "Cloud Computing with AWS",
+        "image": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187300/c7_jeixvq.jpg",
+        "video_link": "https://www.youtube.com/watch?v=1WJvr3zQUYU&pp=ygUqZnVsbCBzdGFjayB3ZWIgZGV2ZWxvcG1lbnQgY291cnNlIGluIHRhbWls",
+        "rating": 4.8,
+        "duration": "10 weeks",
+        "professor": "Mr. Robert Brown",
+        "viewed_count": 1700,
+        "status": "learned",
+        "description": [
+          "Deploy applications on AWS",
+          "Learn about EC2, S3, and Lambda",
+          "Optimize cloud infrastructure costs"
+        ]
+      },
+      {
+        "course_id": "C108",
+        "title": "Blockchain Development",
+        "image": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187323/c8_m71ea8.jpg",
+        "video_link": "https://www.youtube.com/watch?v=ou4ECBybaW4&pp=ygUqZnVsbCBzdGFjayB3ZWIgZGV2ZWxvcG1lbnQgY291cnNlIGluIHRhbWls",
+        "rating": 4.6,
+        "duration": "12 weeks",
+        "professor": "Dr. Michael Scott",
+        "viewed_count": 1100,
+        "status": "upcoming",
+        "description": [
+          "Understand blockchain architecture",
+          "Develop smart contracts with Solidity",
+          "Build decentralized applications (dApps)"
+        ]
+      },
+      {
+        "course_id": "C109",
+        "title": "DevOps Essentials",
+        "image": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187346/c9_zddkca.jpg",
+        "video_link": "https://www.youtube.com/watch?v=BfrJxGQEPSc&pp=ygUqZnVsbCBzdGFjayB3ZWIgZGV2ZWxvcG1lbnQgY291cnNlIGluIHRhbWls",
+        "rating": 4.7,
+        "duration": "10 weeks",
+        "professor": "Ms. Sarah Johnson",
+        "viewed_count": 1400,
+        "status": "learned",
+        "description": [
+          "Learn CI/CD pipeline tools like Jenkins",
+          "Automate deployment processes",
+          "Monitor and optimize application performance"
+        ]
+      },
+      {
+        "course_id": "C110",
+        "title": "Mobile App Development with Flutter",
+        "image": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187378/c10_dtwze8.jpg",
+        "video_link": "https://www.youtube.com/watch?v=06yTCeMIBXk&pp=ygUqZnVsbCBzdGFjayB3ZWIgZGV2ZWxvcG1lbnQgY291cnNlIGluIHRhbWlsp",
+        "rating": 4.8,
+        "duration": "12 weeks",
+        "professor": "Dr. David Kim",
+        "viewed_count": 1600,
+        "status": "upcoming",
+        "description": [
+          "Build cross-platform mobile apps",
+          "Learn Dart programming language",
+          "Integrate APIs and databases"
+        ]
+      },
+      {
+        "course_id": "C111",
+        "title": "Data Structures and Algorithms",
+        "image": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187406/c11_ip5wkc.jpg",
+        "video_link": "https://www.youtube.com/watch?v=TQ53-g4n84Ys",
+        "rating": 4.9,
+        "duration": "14 weeks",
+        "professor": "Dr. Richard Feynman",
+        "viewed_count": 2200,
+        "status": "learned",
+        "description": [
+          "Master arrays, linked lists, trees, and graphs",
+          "Solve algorithmic problems efficiently",
+          "Prepare for technical interviews"
+        ]
+      },
+      {
+        "course_id": "C112",
+        "title": "UI/UX Design Principles",
+        "image": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187437/c12_a5tnhg.jpg",
+        "video_link": "https://www.youtube.com/watch?v=oMBHBpXpgIw&t=5228s",
+        "rating": 4.7,
+        "duration": "8 weeks",
+        "professor": "Ms. Laura Adams",
+        "viewed_count": 1000,
+        "status": "upcoming",
+        "description": [
+          "Design user-friendly interfaces",
+          "Conduct usability testing",
+          "Create wireframes and prototypes"
+        ]
+      },
+      {
+        "course_id": "C113",
+        "title": "Game Development with Unity",
+        "image": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187470/c13_jysyzr.jpg",
+        "video_link": "https://www.youtube.com/watch?v=a7ed3ZnSK8M&t=1834s",
+        "rating": 4.6,
+        "duration": "12 weeks",
+        "professor": "Mr. James Carter",
+        "viewed_count": 1250,
+        "status": "learned",
+        "description": [
+          "Learn C# scripting for game logic",
+          "Build 2D and 3D games",
+          "Publish games to multiple platforms"
+        ]
+      },
+      {
+        "course_id": "C114",
+        "title": "SQL Database Management",
+        "image": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187497/c14_lzqqru.jpg",
+        "video_link": "https://www.youtube.com/watch?v=x3dQsMkJgDg",
+        "rating": 4.8,
+        "duration": "10 weeks",
+        "professor": "Dr. Olivia Green",
+        "viewed_count": 1450,
+        "status": "upcoming",
+        "description": [
+          "Write efficient SQL queries",
+          "Design relational databases",
+          "Optimize database performance"
+        ]
+      },
+      {
+        "course_id": "C115",
+        "title": "Artificial Intelligence Foundations",
+        "image": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187532/c15_txcakw.jpg",
+        "video_link": "https://www.youtube.com/watch?v=ynvnxx7rWQ4",
+        "rating": 4.9,
+        "duration": "14 weeks",
+        "professor": "Prof. Geoffrey Hinton",
+        "viewed_count": 2700,
+        "status": "learned",
+        "description": [
+          "Explore AI concepts like neural networks",
+          "Work with frameworks like PyTorch",
+          "Apply AI to real-world problems"
+        ]
+      },
+      {
+        "course_id": "C116",
+        "title": "Digital Marketing Strategies",
+        "image": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187564/c16_gjameb.jpg",
+        "video_link": "https://www.youtube.com/watch?v=NJ1inoC1L1k",
+        "rating": 4.7,
+        "duration": "8 weeks",
+        "professor": "Ms. Rachel White",
+        "viewed_count": 1100,
+        "status": "upcoming",
+        "description": [
+          "Learn SEO and SEM techniques",
+          "Run social media ad campaigns",
+          "Analyze marketing metrics"
+        ]
+      },
+      {
+        "course_id": "C117",
+        "title": "Agile Project Management",
+        "image": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187596/c17_oeucsd.jpg",
+        "video_link": "https://www.youtube.com/watch?v=EVdh8DCLnA0",
+        "rating": 4.8,
+        "duration": "10 weeks",
+        "professor": "Mr. Thomas Reed",
+        "viewed_count": 1350,
+        "status": "learned",
+        "description": [
+          "Understand Scrum and Kanban methodologies",
+          "Plan and execute agile projects",
+          "Collaborate effectively in teams"
+        ]
+      },
+      {
+        "course_id": "C118",
+        "title": "Robotics Engineering",
+        "image": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187623/c18_o8bhhf.jpg",
+        "video_link": "https://www.youtube.com/watch?v=aKByHmd6unc",
+        "rating": 4.6,
+        "duration": "12 weeks",
+        "professor": "Dr. Sophia Miller",
+        "viewed_count": 1050,
+        "status": "upcoming",
+        "description": [
+          "Design and build robotic systems",
+          "Program robots using ROS",
+          "Explore automation technologies"
+        ]
+      },
+      {
+        "course_id": "C119",
+        "title": "Big Data Analytics",
+        "image": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187646/c19_xa9if9.jpg",
+        "video_link": "https://www.youtube.com/watch?v=GxmfcnU3feo",
+        "rating": 4.7,
+        "duration": "10 weeks",
+        "professor": "Dr. William Clark",
+        "viewed_count": 1550,
+        "status": "learned",
+        "description": [
+          "Process large datasets with Hadoop",
+          "Use Spark for distributed computing",
+          "Perform predictive analytics"
+        ]
+      },
+      {
+        "course_id": "C120",
+        "title": "Ethical Hacking Techniques",
+        "image": "https://res.cloudinary.com/dxutqk10a/image/upload/v1741187673/c20_hqcvkt.jpg",
+        "video_link": "https://www.youtube.com/watch?v=WbV3zRgpw_E",
+        "rating": 4.8,
+        "duration": "12 weeks",
+        "professor": "Mr. Daniel Evans",
+        "viewed_count": 1650,
+        "status": "upcoming",
+        "description": [
+          "Identify system vulnerabilities",
+          "Conduct penetration testing",
+          "Mitigate security risks"
+        ]
+      }
+    ]
+  }
