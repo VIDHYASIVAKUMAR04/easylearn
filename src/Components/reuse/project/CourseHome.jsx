@@ -177,14 +177,11 @@ const CourseHome = () => {
 
             {/* Course Video Banner */}
             <div className="relative rounded-lg overflow-hidden bg-black mb-4 h-96">
-            <iframe
-  src={`https://www.youtube.com/embed/TQ53-g4n84Ys`} // Use the embed URL
-  title="Course Video"
-  className="w-full h-full"
-  frameBorder="0"
-  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-  allowFullScreen
-></iframe>
+  <img
+    src={course.img_url}
+    alt={course.title}
+    className="w-full h-full"
+  ></img>
 </div>
 
             {/* Tabs */}
